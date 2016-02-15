@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="css/style.css">
+		<script src="js/jquery-2.2.0.min.js"></script>
+		<link rel="stylesheet" href="css/animate.css">
+		<script src="js/wow.min.js"></script>
+		<script src="js/jquery.stellar.min.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/scrollreveal.js/3.0.9/scrollreveal.min.js"></script>
+		<script>
+		    new WOW().init();
+    	</script>
+	</head>
+	<body>
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+        			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+        				<span class="sr-only">Toggle navigation</span>
+       					<span class="icon-bar"></span>
+        				<span class="icon-bar"></span>
+        				<span class="icon-bar"></span>
+      				</button>
+      				<a class="navbar-brand" href="#">Royale Apparel</a>
+    			</div>
+
+    			<div class="collapse navbar-collapse" id="navbar-collapse-1">
+      				<ul class="nav navbar-nav navbar-right">
+        				<li class="active"><a href="index.html">Home</a></li>
+        				<li><a href="products.html">Products</a></li>
+        				<li><a href="about.html">About</a></li>
+      				</ul>
+    			</div>
+			</div>
+		</nav>
+		<div class="container-custom" >
+			<div class="mainText">
+				<h1><span style="background-color:rgba(0,0,0,0.75) !important;padding:20px;">Royale Apparel<br></span></h1>
+				<p><span style="background-color:rgba(0,0,0,0.75) !important;padding:20px;">Dope clothes for a dope cause.<br></span></p>
+			</div>
+		</div>
+
+		<div class="seperator"></div>
+
+		<div id="products" style="text-align:center;" class="wow fadeInUp" data-wow-offset="30">
+			<h1 style="font-size:60px;">Buy Now</h1>
+			<div class="col-md-4">
+				<h1 >Hoodies</h1>
+				<img src="images/hoodies.JPG"  alt="" width="90%">
+				<div class="btn-group" role="group" aria-label="...">
+					<a type="button" class="btn btn-info" href="product.php?id=1">More Details</a>
+  					<a class="btn btn-danger" href="shop.php?id=1" role="button">Add to cart</a>
+ 	 				<a type="button" href="" class="btn btn-primary">Quick Checkout</a>
+				</div>
+				
+			</div>
+			<div class="col-md-4">
+				<h1>Crewnecks</h1>
+				<img src="images/crewnecks.JPG" id="crewneckimg" class="animated" alt="" width="90%">
+				<div class="btn-group" role="group" aria-label="...">
+					<a type="button" class="btn btn-info" href="product.php?id=2">More Details</a>
+  					<a class="btn btn-danger" href="shop.php?id=2" role="button">Add to cart</a>
+ 	 				<a type="button" class="btn btn-primary">Quick Checkout</a>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<h1>T-shirts</h1>
+				<img src="images/model.JPG" alt="" width="100%">
+				<div class="btn-group" role="group" aria-label="...">
+					<a type="button" class="btn btn-info" href="product.php?id=3">More Details</a>
+  					<a class="btn btn-danger" href="shop.php?id=3" role="button">Add to cart</a>
+ 	 				<a type="button" class="btn btn-primary">Quick Checkout</a>
+				</div>
+			</div>
+
+		</div>
+
+	</body>
+</html>
