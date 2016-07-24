@@ -91,11 +91,11 @@
 								<option>Small</option><option>Medium</option><option>Large</option> <option disabled="disabled">Extra Large - SOLD OUT</option>
 							</select>
 						<br><br>
-						<input type="hidden" name="on1" value="Color">
+						<!--input type="hidden" name="on1" value="Color">
 						Color:
 							<select name="os1" id="color" class="form-control">
 								<?php echo $options;?>
-							</select>
+							</select-->
 						<br><br>
 							<a href="http://goo.gl/forms/BnlrJdZq1l" value="pickup" class="btn btn-success">Pick up/pay in person (MSJHS)</a>
 						<br><br>
