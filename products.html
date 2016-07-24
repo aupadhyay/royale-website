@@ -9,12 +9,10 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 		<script src="https://cdn.jsdelivr.net/scrollreveal.js/3.0.9/scrollreveal.min.js"></script>
-		<script>
-		    new WOW().init();
-    	</script>
-    	<title>Royale Apparel</title>
+		<title>Royale Apparel - Products</title>
 	</head>
-	<body style="overflow-y:hidden;">
+
+	<body>
 		<nav class="navbar navbar-default navbar-static-top" style="margin-bottom:0px;">
 			<div class="container">
 				<div class="navbar-header">
@@ -29,26 +27,31 @@
 
     			<div class="collapse navbar-collapse" id="navbar-collapse-1">
       				<ul class="nav navbar-nav navbar-right">
-        				<li class="active"><a href="index.html">Home</a></li>
-        				<li><a href="products.html">Products</a></li>
+        				<li ><a href="index.html">Home</a></li>
+        				<li class="active"><a href="products.html">Products</a></li>
         				<li><a href="about.html">About</a></li>
       				</ul>
     			</div>
 			</div>
 		</nav>
-		<div class="container-custom" >
-			<div class="overlay"></div>
-			<div class="mainText">
-
-				<h1><span style="padding:20px;">Royale Apparel<br></span></h1>
-				<p><span style="padding:50px;">Dope clothing for a dope cause.<br></span></p>
-				<a href="products.html" class="btn btn-default">SHOP NOW</a>
+		<div class="container">
+		<div id="products" style="text-align:center;" class="wow fadeInUp" data-wow-offset="30">
+			<h1 style="font-size:60px;">Products</h1>
+			<div class="col-md-4">
+				<h1 >Hoodies</h1>
+				<a href="product.php?id=1"><img src="images/hoodies.JPG" alt="" width ="100%"></a><br>
+				
 			</div>
+			<div class="col-md-4">
+				<h1>Crewnecks</h1>
+				<a href="product.php?id=2"><img src="images/crewnecks.JPG" id="crewneckimg" class="animated" alt="" width="100%"></a><br>
+			</div>
+			<div class="col-md-4">
+				<h1>T-shirts</h1>
+				<a href="product.php?id=3"><img src="images/tshirt.jpg" alt="" width="100%"></a><br>
+			</div>
+
 		</div>
-
-		<div class="seperator"></div>
-
-		
-
+		</div>
 	</body>
 </html>
